@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+}
+
+body {
+	margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height:100%;
+}
+
+/*NAVBAR*/
+
+.navbar {
+    display:flex;
+	justify-content:space-between;
+	align-items:center;
+	height: 50px;
+	padding: 20px 15px;
+	background-color: #f1f1f1;
+    
+}
+
+nav{
+    z-index:100;
+    top: 0px;
+    position: sticky;
+    position:-webkit-sticky;
+    box-shadow: 2px 2px 4px 0;
+}
+
+.logo {
+  	width: 60px;
+}
+
+.link {
+	color: #262525;
+	text-decoration: none;
+    margin:0 20px;
+}
+
+
+/*HEADER*/
+
+.header{
+    background-image: url("images/header-space-y.PNG");
+    background-size: cover;
+    color:white;
+    margin:0;
+    height:100%;
+}
+
+.titre{
+    margin:0;
+    padding-top: 25%;
+    font-size: 100px;
+    text-align:center;
+}
+.slogan{
+    font-size: 45px;
+    margin:10px;
+    text-align:center;
+}
+
